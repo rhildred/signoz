@@ -12,3 +12,5 @@ ansible-playbook down.yml
 ```
 
 This does docker compose down on the clickhouse-setup/docker-compose-minimal.yaml (the same docker-compose file from up.yml)
+
+Hypothesis 2: Made all services use the same Docker network. Communication between services fixed Docker monitoring.
