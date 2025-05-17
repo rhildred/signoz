@@ -12,3 +12,5 @@ ansible-playbook down.yml
 ```
 
 This does docker compose down on the clickhouse-setup/docker-compose-minimal.yaml (the same docker-compose file from up.yml)
+
+Hypothesis 1: Fixed broken OpenTelemetry config by adding missing processors/exporters. Collector started successfully.
