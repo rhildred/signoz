@@ -13,4 +13,4 @@ ansible-playbook down.yml
 
 This does docker compose down on the clickhouse-setup/docker-compose-minimal.yaml (the same docker-compose file from up.yml)
 
-This branch was to filter everything BUT the otel-collector. The idea is to just show logs from the units under test.
+This is a result of fixing some issues with signoz.
