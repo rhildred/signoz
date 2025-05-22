@@ -12,3 +12,7 @@ ansible-playbook down.yml
 ```
 
 This does docker compose down on the clickhouse-setup/docker-compose-minimal.yaml (the same docker-compose file from up.yml)
+
+The point of this branch was to test the hypothesis that signoz version 56 was to old to have an infrastructure dashboard. We updated to 0.73.0 and verified that the hypothesis was correct.
+
+
